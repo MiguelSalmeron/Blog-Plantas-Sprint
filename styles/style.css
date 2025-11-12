@@ -32,7 +32,7 @@ header h1 {
 main {
     width: 90%;
     max-width: 1200px;
-    margin: 40;
+    margin: 40px auto;
     padding: 20px;
     background-color: #ffffff;background-color: white ;
     border-radius: 8px;
@@ -55,7 +55,7 @@ article h2 {
     color: #34495e;
     margin-bottom: 10px;
 }
-imput[type="text"],
+input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
@@ -78,6 +78,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: #218838;
 }
+
 @media (max-width: 700px) {
     header {
         flex-direction: column;
