@@ -82,7 +82,7 @@ header h1 {
      margin-bottom: 20px;
 }
 
-article {
+.card {
      background-color: var(--color-fondo-caja);
      border-radius: 8px;
      padding: 25px;
@@ -90,17 +90,17 @@ article {
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
      transition: box-shadow 0.3s ease;
 }
-article:hover {
+.card:hover {
      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
-article h2 {
+.card h2 {
      color: var(--color-texto-oscuro);
      margin-bottom: 10px;
 }
 
 .card-title-link {
      text-decoration: none;
-     color: var(--color-texto-oscuro));
+     color: var(--color-texto-oscuro);
 }
 
 .read-more-link {
