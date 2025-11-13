@@ -13,14 +13,23 @@ body {
     background-color: var(--color-fondo-pagina);
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
+    padding-top: 80px;
 }
 
 header {
-     background-color: var(--color-fondo-caja);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
      padding: 15px 40px;
      display: flex;
      justify-content: space-between;
      align-items: center;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1000;
+
 }
 
 /* --- Estilos del Pie de pagina--- */
@@ -110,7 +119,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color:var(--color-secundario);
 }
+.bienvenida {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 
+.bienvenida-imagen {
+    flex: 1;
+}
+
+.bienvenida-texto {
+    flex: 2;
+}
 @media (max-width: 700px) {
     header {
         flex-direction: column;
@@ -125,3 +146,6 @@ button[type="submit"]:hover {
         color:var(--color-texto-oscuro);
     }
 }
+
+
+
