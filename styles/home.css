@@ -1,0 +1,13 @@
+.bienvenida {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.bienvenida-imagen {
+    flex: 1;
+}
+
+.bienvenida-texto {
+    flex: 2;
+}
