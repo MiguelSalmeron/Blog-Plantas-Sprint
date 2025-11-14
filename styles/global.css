@@ -12,16 +12,14 @@ body {
      background-color: var(--color-fondo-pagina);
      font-family: 'Lato', sans-serif;
      line-height: 1.6;
-     padding-top: 0; 
+     padding-top: 80px; 
 }
 
 header {
      height: 80px; 
-     background-color: rgba(255, 255, 255, 0.85); /* baja la alpha para notar transparencia */
+     background-color: #ffffff;
+     border-radius:  0 0 10px 10px;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
-     backdrop-filter: blur(6px);
-     -webkit-backdrop-filter: blur(6px);
-     will-change: backdrop-filter;
      padding: 0 40px; /* padding horizontal, la altura la controla height */
      display: flex;
      justify-content: space-between;
@@ -37,7 +35,7 @@ header {
 main {
      width: 90%;
      max-width: 1200px;
-     margin: 60px auto; /* < altura del header (80px) para que 20px de la tarjeta quede bajo el header */
+     margin: 20px auto; /* < altura del header (80px) para que 20px de la tarjeta quede bajo el header */
      padding: 20px;
      background-color: var(--color-fondo-caja);
      border-radius: 8px;
@@ -129,5 +127,8 @@ header h1 {
     main {
          margin-top: 20px; /* en móvil no queremos tanto solapamiento */
     }
+    body {
+     padding-top: 0;
+ }
 }
 
